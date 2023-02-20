@@ -12,7 +12,8 @@ Cure::Cure(const Cure &oth) : AMateria(oth._type)
 
 Cure &Cure::operator=(const Cure &oth)
 {
-	return *this;
+    (void)oth;
+    return *this;
 }
 
 void Cure::use(ICharacter &target)

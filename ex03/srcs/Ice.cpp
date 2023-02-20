@@ -17,6 +17,7 @@ void Ice::use(ICharacter &target)
 
 Ice &Ice::operator=(const Ice &oth)
 {
+    (void)oth;
 	return *this;
 }
 
