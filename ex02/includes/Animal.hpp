@@ -23,9 +23,8 @@ public:
 	Animal(const Animal& other);
     Animal& operator=(const Animal& other);
 	const std::string& getType() const;
-	void setType(const std::string &type);
 	virtual void makeSound() const = 0;
-private:
+protected:
     std::string _type;
 };
 

@@ -48,8 +48,3 @@ const std::string& Animal::getType() const
 {
     return _type;
 }
-
-void Animal::setType(const std::string &type)
-{
-	_type = type;
-}

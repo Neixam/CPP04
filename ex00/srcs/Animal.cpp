@@ -53,8 +53,3 @@ void Animal::makeSound() const
 {
     std::cout << "brh !" << std::endl;
 }
-
-void Animal::setType(const std::string &type)
-{
-	_type = type;
-}

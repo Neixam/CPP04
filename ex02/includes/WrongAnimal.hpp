@@ -25,7 +25,7 @@ public:
 	const std::string& getType() const;
 	void setType(const std::string &type);
 	void makeSound() const;
-private:
+protected:
 	std::string _type;
 };
 

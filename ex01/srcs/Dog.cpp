@@ -21,7 +21,7 @@ const static std::string NEUTRAL = "\033[0m";
 Dog::Dog() : Animal(), _brain(new Brain())
 {
     std::cout << GREEN << "Constructor Dog" << NEUTRAL << std::endl;
-	setType("Dog");
+    _type = "Dog";
 }
 
 Dog::~Dog()
@@ -42,7 +42,7 @@ Dog &Dog::operator=(const Dog &other)
 	{
 		return *this;
 	}
-	setType(other.getType());
+	_type = other._type;
 	*_brain = *other._brain;
     return *this;
 }

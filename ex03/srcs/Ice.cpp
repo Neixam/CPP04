@@ -17,11 +17,6 @@ void Ice::use(ICharacter &target)
 
 Ice &Ice::operator=(const Ice &oth)
 {
-	if (this == &oth)
-	{
-		return *this;
-	}
-	_type = oth._type;
 	return *this;
 }
 
